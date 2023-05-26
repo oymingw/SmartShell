@@ -1,0 +1,95 @@
+<resources>
+    <string name="app_name">SmartShell_v4</string>
+    <string name="tv_one">SmartShell</string>
+    <string name="title">SmartShell</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="RSSI">RSSI</string>
+    <string name="defaultvalue">-100dBm</string>
+    <string name="exporter_email_device_list_subject">Bluetooth Scan Results (%s)</string>
+    <string name="exporter_email_device_list_body">Please find attached the scan results.</string>
+    <string name="exporter_email_device_list_picker_text">Please select your email client:</string>
+
+
+    <!-- Labels -->
+    <string name="about_dialog_text">This is a sample application using the Bluetooth LE Library.\n\nGithub: https://github.com/alt236/Bluetooth-LE-Library---Android\n\nCopyright: Alexandros Schillings</string>
+    <string name="header_device_info">Device Info</string>
+    <string name="header_ibeacon_data">iBeacon Data</string>
+    <string name="header_raw_ad_records">Raw Ad Records</string>
+    <string name="header_rssi_info">RSSI Info</string>
+    <string name="header_scan_record">Scan Record</string>
+    <string name="label_advertisement">Advertisement:</string>
+    <string name="label_as_array">As Array:</string>
+    <string name="label_as_string">As String:</string>
+    <string name="label_bluetooth_le_status">Bluetooth LE:</string>
+    <string name="label_bluetooth_status">Bluetooth:</string>
+    <string name="label_bluetooth_filter">Filter:</string>
+    <string name="label_bluetooth_period">Period:</string>
+    <string name="label_bonding_state">Bonding State:</string>
+    <string name="label_company_id">Company ID:</string>
+    <string name="label_data">Data:</string>
+    <string name="label_desc">Desc:</string>
+    <string name="label_device_address">Device address:</string>
+    <string name="label_device_class">Device Class:</string>
+    <string name="label_device_major_class">Major Class:</string>
+    <string name="label_device_services">Services:</string>
+    <string name="label_device_name">Device Name:</string>
+    <string name="label_distance">Distance:</string>
+    <string name="label_first_rssi">First RSSI:</string>
+    <string name="label_first_timestamp">First Timestamp:</string>
+    <string name="label_last_rssi">Last RSSI:</string>
+    <string name="label_last_timestamp">Last Timestamp:</string>
+    <string name="label_mac">MAC:</string>
+    <string name="label_major">Major:</string>
+    <string name="label_minor">Minor:</string>
+    <string name="label_rssi">RSSI:</string>
+    <string name="label_running_average_rssi">Running Average RSSI:</string>
+    <string name="label_state">State:</string>
+    <string name="label_tx_power">TX Power:</string>
+    <string name="label_uuid">UUID:</string>
+    <string name="label_updated">Updated:</string>
+    <string name="label_decriptor">Descriptor:</string>
+    <string name="label_record">Record:</string>
+
+    <string name="confirm">Confirm</string>
+    <string name="cancel">Cancel</string>
+    <string name="button_allow">Agree</string>
+    <string name="button_deny">Refuse</string>
+    <string name="open_setting">Setting</string>
+    <string name="open_setting_info">You must open file read/write permission, open now？</string>
+    <string name="open_setting_permission">您拒绝了部分权限，将无法正常使用APP，是否现在进入权限设置界面，点击权限-打开所有权限，现在就去设置？</string>
+    <string name="permission_denied">请求权限被拒绝，为了能正常使用APP，必须要打开所有权限</string>
+    <string name="permission_rationale">1.蓝牙权限用于基本蓝牙操作；\n2.位置权限将用于手机定位和蓝牙；\n为了正常使用APP必须打开所有权限，点击同意</string>
+
+    <string name="ble_location_notice">注意：由于Android6.0系统限制，务必打开位置信息，否则将无法搜索到蓝牙设备, 开启之后会显示为下图红色样式</string>
+    <string name="ble_location_open">Setting</string>
+    <string name="ble_location_not_open">您取消了开启位置信息，Android6.0系统将无法搜索到蓝牙设备，是否重新设置？</string>
+    <string name="ble_location_is_open">已经开启位置信息</string>
+    <string name="ble_location_has_open">您已经开启了位置，请检查1,2的情况</string>
+    <string name="ble_location_not_open_notice">没有打开位置信息，手机将无法搜索到蓝牙设备，无法正常使用蓝牙设备</string>
+    <string name="ble_not_scan">无法扫描到任何设备，请检查下列情况：\n1.蓝牙设备不在附近或者没有电量\n2.蓝牙设备是否正连接其他手机（其他手机可暂时关闭蓝牙）\n3.没有开启位置信息（点击检查位置确认）</string>
+    <string name="ble_not_scan1">无法扫描到任何设备，请检查是否是以下情况：\n1.蓝牙设备不在附近或者没有电量\n2.蓝牙设备是否正连接其他手机（其他手机可暂时关闭蓝牙）</string>
+    <string name="ble_not_scan_bt1">检查位置开启</string>
+    <string name="ble_not_support">BLE not support, can not use app</string>
+    <string name="ble_exit_app">Exit App?</string>
+    <string name="exit_app">Are you sure exit app?</string>
+    <string name="ble_open">Open bluetooth</string>
+    <string name="ble_setting">Setting</string>
+    <string name="ble_not_open">Bluetooth not open</string>
+
+    <string name="connected">Connected</string>
+    <string name="disconnected">Disconnected</string>
+    <string name="invalid_device_data">Invalid Device Data!</string>
+    <string name="no_data">No data</string>
+    <string name="not_supported">Not supported</string>
+    <string name="off">Off</string>
+    <string name="period">scan:10s, pause:5s</string>
+    <string name="on">On</string>
+    <string name="supported">Supported</string>
+    <string name="unknown">unknown</string>
+    <string name="unknown_characteristic">Unknown characteristic</string>
+    <string name="unknown_device">Unknown device</string>
+    <string name="unknown_service">Unknown service</string>
+    <string name="no_known_services">No known services</string>
+
+</resources>

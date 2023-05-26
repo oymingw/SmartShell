@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardElevation="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:background="@color/colorPrimaryDark"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:text="@string/title"
+                android:textAlignment="center"
+                android:textColor="@color/colorPrimaryText"
+                android:textSize="24sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:layout_gravity="center"
+                android:background="@color/colorPrimaryText" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="25dp"/>
+    <EditText
+        android:id="@+id/number"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:hint="number"
+        android:textColor="#95a1aa"
+        android:inputType="number"
+        android:drawableLeft="@drawable/ic_baseline_vpn_key_24"
+        android:drawablePadding="10dp"
+        android:paddingLeft="10dp"
+        android:background="@color/white"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="25dp"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="25dp"/>
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="122dp"
+        android:layout_height="38dp"
+        android:gravity="center"
+        android:onClick="start_opt"
+        android:text="start"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="@color/white"
+
+
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+
+
+    <ProgressBar
+        android:id="@+id/pb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        />
+
+
+
+
+
+</LinearLayout>
