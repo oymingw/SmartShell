@@ -1,7 +1,8 @@
 # SmartShell
 
-## Author
+## Author:
 Mingwei Ouyang
+
 E-mail: zxmrou@qq.com/1999mrou@sjtu.edu.cn
 
 ##  About this App:
@@ -10,7 +11,7 @@ This APP is the test demo version of thesis SmartShell, there are some bugs. Due
 * The developer provides a design module to measure wireless RSSI
 * The developer provides an architecture that can be iterated downward, namely the SmartShellAdapter framework
 
-## Statement
+## Statement:
 I am the only developer of this APP, all unauthorized uploads are prohibited, if there are private open source uploads, please delete them yourself!!!
 
 ## BTW：
