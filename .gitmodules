@@ -1,0 +1,3 @@
+[submodule "SmartShell"]
+	path = SmartShell
+	url = git@github.com:oymingw/SmartShell.git
