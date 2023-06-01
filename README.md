@@ -12,9 +12,11 @@ This APP is the test demo version of thesis SmartShell, there are some bugs. Due
 * The developer provides an architecture that can be iterated downward, namely the SmartShellAdapter framework
 
 ## Statement:
-I am the only developer of this APP, all unauthorized uploads are prohibited, if there are private open source uploads, please delete them yourself!!!
+I am the only developer of this APP, all unauthorized uploads are prohibited, if there are private open source uploads, please delete them!!!
 
 ## BTW：
-I am still the sole developer of the MCU for this paper, except that I think the development process is very simple, but anyone with a little development base can implement this, so I won't provide it. I can open source it afterwards if there is a need.
+I am still the sole developer of the MCU for this paper. I can open source it afterwards if there is a need.
 
-And again, I declare that the development of these two software **has nothing to do with the first author of the paper**, because he did not contribute anything. The funny thing is that ninety percent of the workload of this system design also has nothing to do with him in fact, so let's just laugh about it.
+
+
+
